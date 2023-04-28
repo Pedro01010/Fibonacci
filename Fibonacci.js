@@ -8,7 +8,7 @@ function checkFibonacci(numero) {
   if (resultado === numero) {
     console.log(numero + " Existe na sequência de Fibonacci.");
   } else if  (numero == null) {
-    console.log(" Adicione um valor.");
+    console.log(" Por favor adicione um valor.");
   }else {
     console.log(numero + " Não existe na sequência de Fibonacci.");
   }
